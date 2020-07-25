@@ -51,3 +51,5 @@ Route::prefix("admin")->group(function () {
         return "admin - call";
     });
 });
+
+//Route is so big
