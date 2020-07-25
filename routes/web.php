@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,6 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get("/tr",'SliderController@top');
+
+
 
 Route::get('/slider', function () {
     return "Hello Hadi This page is slider";
@@ -53,3 +57,4 @@ Route::prefix("admin")->group(function () {
 });
 
 //Route is so big
+

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8c72459-84db-4302-a735-71162085d575" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,12 +170,23 @@
       <updated>1595408558361</updated>
       <workItem from="1595408560104" duration="513000" />
       <workItem from="1595409104569" duration="2996000" />
-      <workItem from="1595657488469" duration="5144000" />
+      <workItem from="1595657488469" duration="8940000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1595412488551">
@@ -193,6 +205,10 @@
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595412488551" />
+    <state x="-1074" y="434" key="NewPhpClassDialog" timestamp="1595667820690">
+      <screen x="-1600" y="190" width="1600" height="860" />
+    </state>
+    <state x="-1074" y="434" key="NewPhpClassDialog/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595667820690" />
     <state x="-1299" y="262" key="SettingsEditor" timestamp="1595409352223">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
