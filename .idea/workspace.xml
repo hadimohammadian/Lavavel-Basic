@@ -171,7 +171,7 @@
       <workItem from="1595408560104" duration="513000" />
       <workItem from="1595409104569" duration="2996000" />
       <workItem from="1595657488469" duration="9448000" />
-      <workItem from="1595743709378" duration="3665000" />
+      <workItem from="1595743709378" duration="4299000" />
     </task>
     <task id="LOCAL-00001" summary="Route from controller">
       <created>1595671233884</created>
@@ -194,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595746259590</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="get username and password in controller">
+      <created>1595748369617</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595748369617</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,13 +225,14 @@
     <MESSAGE value="Route from controller" />
     <MESSAGE value="create controller with &quot;php artisan make:controller FirstController&quot;" />
     <MESSAGE value="Use dd() for killing all statement after that" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use dd() for killing all statement after that" />
+    <MESSAGE value="get username and password in controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="get username and password in controller" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2" timestamp="1595746258857">
+    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2" timestamp="1595748368868">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
-    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595746258857" />
+    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595748368868" />
     <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1595412488551">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
@@ -253,10 +261,10 @@
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
     <state x="-914" y="535" key="VCS.EditChangelistDialog/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595745144607" />
-    <state x="-1208" y="353" key="Vcs.Push.Dialog.v2" timestamp="1595746264616">
+    <state x="-1208" y="353" key="Vcs.Push.Dialog.v2" timestamp="1595748372122">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
-    <state x="-1208" y="353" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595746264616" />
+    <state x="-1208" y="353" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595748372122" />
     <state x="-1508" y="282" width="1416" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1595745276338">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>

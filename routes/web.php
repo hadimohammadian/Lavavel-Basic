@@ -59,6 +59,8 @@ Route::prefix("admin")->group(function () {
 Route::get('/fi' , "FirstController@index")->name('FirstController.index');
 Route::get('/fa' , "FirstController@about")->name('FirstController.about');
 Route::get("/fg/{user}/{pass}","FirstController@getuser")->name('FirstController.getuser');
+Route::get("/fp1/{user}/{pass}","FirstController@para01")->name('FirstController.getuser_p01');
+Route::get("/fp2/{user?}/{pass?}","FirstController@para02")->name('FirstController.getuser_p02');
 
 
 //Route is so big

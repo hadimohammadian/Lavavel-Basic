@@ -23,4 +23,14 @@ class FirstController extends Controller
     {
         dd("username : ".$user . "\n". "Pass : " . $pass);
     }
+
+    public function para01($t1,$t2)
+    {
+        dd($t1." --- " .$t2);
+    }
+
+    public function para02($r1=null,$r2=null)
+    {
+        dd($r1." --- " .$r2);
+    }
 }
