@@ -56,5 +56,8 @@ Route::prefix("admin")->group(function () {
     });
 });
 
+Route::get('/fi' , "FirstController@index")->name('FirstController.index');
+Route::get('/fa' , "FirstController@about")->name('FirstController.about');
+
 //Route is so big
 
