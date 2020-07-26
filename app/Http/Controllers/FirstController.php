@@ -8,6 +8,7 @@ class FirstController extends Controller
 {
     public function index()
     {
+
         dd("This statement is `Dump and Die` and kill after this statement");
         return "index in first controller";
     }
@@ -16,5 +17,10 @@ class FirstController extends Controller
     {
         return "about in first controller";
 
+    }
+
+    public function GetUser($user,$pass)
+    {
+        dd("username : ".$user . "\n". "Pass : " . $pass);
     }
 }
