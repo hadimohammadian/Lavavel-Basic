@@ -9,13 +9,17 @@ class SliderController extends Controller
 
     public function index()
     {
-        return view('slider.index');
+        $x=10;
+        $t = "hadi";
+        return view('slider.index',['num'=>$x,'name'=>$t]);
     }
 
 
     public function create()
     {
-        return view('slider.create');
+        $r1 = "R text";
+        $r2 = "R2 Text";
+        return view('slider.create',compact('r1','r2'));
 
     }
 
@@ -28,8 +32,9 @@ class SliderController extends Controller
 
     public function show($id = null)
     {
-
-        return view('slider.show');
+        $t = "parameter 01 ";
+        $y = "Parameter 02";
+        return view('slider.show')->with(['P_one'=>$t,'P_two'=>$y]);
 
     }
 

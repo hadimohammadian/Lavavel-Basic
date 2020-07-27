@@ -11,8 +11,15 @@
 <body>
 <h1>this is a index slider</h1>
 <hr>
-<h2 style="color: coral; margin:100px 50px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad aperiam aspernatur consequuntur delectus deserunt dolorem doloribus ducimus itaque, laboriosam minus omnis quae quo sint vitae voluptates voluptatibus? Commodi delectus dolor error minus obcaecati perferendis quas recusandae reiciendis sequi voluptate?
-</h2>
+<p>Pass argument by php</p>
+ <h2><?php echo $num ;?></h2>
+ <h2><?php echo $name ;?></h2>
+<hr>
+<p>
+    pass argument by blade
+</p>
+<h2>{{$num}}</h2>
+<h2>{{$name}}</h2>
 
 </body>
 </html>
