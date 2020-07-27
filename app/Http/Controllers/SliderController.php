@@ -32,9 +32,10 @@ class SliderController extends Controller
 
     public function show($id = null)
     {
+        $it = $id;
         $t = "parameter 01 ";
         $y = "Parameter 02";
-        return view('slider.show')->with(['P_one'=>$t,'P_two'=>$y]);
+        return view('slider.show',compact('it'))->with(['P_one'=>$t,'P_two'=>$y]);
 
     }
 
