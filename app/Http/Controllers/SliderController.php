@@ -9,12 +9,13 @@ class SliderController extends Controller
 
     public function index()
     {
-
+        return view('slider.index');
     }
 
 
     public function create()
     {
+        return view('slider.create');
 
     }
 
@@ -25,13 +26,16 @@ class SliderController extends Controller
     }
 
 
-    public function show($id)
+    public function show($id = null)
     {
+
+        return view('slider.show');
 
     }
 
     public function edit($id)
     {
+        return view('slider.edit');
 
     }
 

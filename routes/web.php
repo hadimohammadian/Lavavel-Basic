@@ -21,13 +21,13 @@ Route::get("/tr",'SliderController@top');
 
 
 
-Route::get('/slider', function () {
-    return "Hello Hadi This page is slider";
-})->name('slider.index');
+//Route::get('/slider', function () {
+//    return "Hello Hadi This page is slider";
+//})->name('slider.index');
 
-Route::get('/slider/{id}', function ($id = null) {
-    return "<h1>ID id :  </h1>" . $id;
-});
+//Route::get('/slider/{id}', function ($id = null) {
+//    return "<h1>ID id :  </h1>" . $id;
+//})->where(['id' => '[0-9]+']);
 
 Route::get('/pick/{id?}', function ($id = null) {
     return "<h1>PICK is :  </h1>" . $id;
@@ -61,6 +61,11 @@ Route::get('/fa' , "FirstController@about")->name('FirstController.about');
 Route::get("/fg/{user}/{pass}","FirstController@getuser")->name('FirstController.getuser');
 Route::get("/fp1/{user}/{pass}","FirstController@para01")->name('FirstController.getuser_p01');
 Route::get("/fp2/{user?}/{pass?}","FirstController@para02")->name('FirstController.getuser_p02');
+
+Route::get('/slider','sliderController@index')->name('slider.index');
+Route::get('/slider/create','sliderController@create')->name('slider.create');
+Route::get('/slider/{id?}','sliderController@show')->name('slider.show');
+Route::get('/slider/{id?}/edit','sliderController@edit')->name('slider.edit');
 
 
 //Route is so big
