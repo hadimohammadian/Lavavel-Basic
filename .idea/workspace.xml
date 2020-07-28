@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8c72459-84db-4302-a735-71162085d575" name="Default Changelist" comment="use layouts in all views and use `yield` , `section`">
-      <change afterPath="$PROJECT_DIR$/resources/views/partials/news.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/partials/products.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/partials/slider.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/slider/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slider/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/slider/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slider/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/news.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/news.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/slider.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/slider.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/slider/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slider/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/slider/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slider/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +190,7 @@
       <workItem from="1595743709378" duration="4954000" />
       <workItem from="1595825971604" duration="6963000" />
       <workItem from="1595834918644" duration="2429000" />
-      <workItem from="1595911432489" duration="4630000" />
+      <workItem from="1595911432489" duration="6116000" />
     </task>
     <task id="LOCAL-00001" summary="Route from controller">
       <created>1595671233884</created>

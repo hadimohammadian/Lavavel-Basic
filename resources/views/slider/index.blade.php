@@ -19,9 +19,9 @@
     </p>
     <h2>{{$num}}</h2>
     <h2>{{$name}}</h2>
-    @include('partials.slider')
-    @include('partials.news')
-    @includeWhen($flag,'partials.products')
+    @include('partials.slider',['par01'=>$t,'email'=>'A@N.com','state'=>$flag])
+    @include('partials.news',['nt001'=>"this is a new 01"])
+    @includeWhen($flag,'partials.products' ,["pname"=>'SAMSUNG'])
 
 
 
