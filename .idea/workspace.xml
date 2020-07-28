@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8c72459-84db-4302-a735-71162085d575" name="Default Changelist" comment="Create Full method for SliderController with &#10;&quot;php artisan make:controller SliderController -r&quot;">
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+    <list default="true" id="d8c72459-84db-4302-a735-71162085d575" name="Default Changelist" comment="use layouts in all views and use `yield` , `section`">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/slider/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slider/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/slider/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slider/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/slider/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slider/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/slider/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slider/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
@@ -44,6 +49,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -158,6 +164,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -184,7 +191,8 @@
       <workItem from="1595657488469" duration="9448000" />
       <workItem from="1595743709378" duration="4954000" />
       <workItem from="1595825971604" duration="6963000" />
-      <workItem from="1595834918644" duration="1065000" />
+      <workItem from="1595834918644" duration="2429000" />
+      <workItem from="1595911432489" duration="1342000" />
     </task>
     <task id="LOCAL-00001" summary="Route from controller">
       <created>1595671233884</created>
@@ -228,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595827510361</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="use layouts in all views and use `yield` , `section`">
+      <created>1595836123716</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595836123716</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,17 +270,26 @@
     <MESSAGE value="get username and password in controller" />
     <MESSAGE value="get username and password in controller with different name and Nullable" />
     <MESSAGE value="Create Full method for SliderController with &#10;&quot;php artisan make:controller SliderController -r&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Full method for SliderController with &#10;&quot;php artisan make:controller SliderController -r&quot;" />
+    <MESSAGE value="use layouts in all views and use `yield` , `section`" />
+    <option name="LAST_COMMIT_MESSAGE" value="use layouts in all views and use `yield` , `section`" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1160" y="387" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1595827189746">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
     <state x="-1160" y="387" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595827189746" />
-    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2" timestamp="1595827835571">
+    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2" timestamp="1595836616650">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
-    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595827835571" />
+    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595836616650" />
+    <state x="-1508" y="282" width="1416" height="676" key="DiffContextDialog" timestamp="1595836530933">
+      <screen x="-1600" y="190" width="1600" height="860" />
+    </state>
+    <state x="-1508" y="282" width="1416" height="676" key="DiffContextDialog/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595836530933" />
+    <state x="-1020" y="375" key="FileChooserDialogImpl" timestamp="1595836736123">
+      <screen x="-1600" y="190" width="1600" height="860" />
+    </state>
+    <state x="-1020" y="375" key="FileChooserDialogImpl/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595836736123" />
     <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1595412488551">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
@@ -298,9 +322,17 @@
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
     <state x="-1208" y="353" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595827514688" />
-    <state x="-1508" y="282" width="1416" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1595745276338">
+    <state x="-1508" y="282" width="1416" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1595836614524">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
-    <state x="-1508" y="282" width="1416" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595745276338" />
+    <state x="-1508" y="282" width="1416" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595836614524" />
+    <state x="-1508" y="282" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595836614524">
+      <screen x="-1600" y="190" width="1600" height="860" />
+    </state>
+    <state x="-1508" y="282" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595836614524" />
+    <state x="-991" y="537" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595836625170">
+      <screen x="-1600" y="190" width="1600" height="860" />
+    </state>
+    <state x="-991" y="537" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595836625170" />
   </component>
 </project>

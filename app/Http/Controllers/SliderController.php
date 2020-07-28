@@ -11,7 +11,7 @@ class SliderController extends Controller
     {
         $x=10;
         $t = "hadi";
-        return view('slider.index',['num'=>$x,'name'=>$t]);
+       // return view('slider.index',['num'=>$x,'name'=>$t]);
     }
 
 
