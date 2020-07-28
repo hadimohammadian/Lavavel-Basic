@@ -3,6 +3,7 @@
 @php($t = "this is php parameter")
 @php($flag=true)
 
+
 @section('content')
 
     <h1>this is a index slider</h1>
@@ -27,4 +28,4 @@
 
 @endsection
 
-
+@section('title','صفحه اصلی')

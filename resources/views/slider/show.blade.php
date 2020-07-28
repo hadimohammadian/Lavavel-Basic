@@ -5,6 +5,11 @@ $b = "this is a simple text";
 $aa = ['name'=>'hadi' , 'family'=>'mohammadian']
 
 @endphp
+
+@section('title')
+
+    {{'صفحه نمایش'}}
+@endsection
 @section('content')
     <h1>
         this is a show - {{$it}}
