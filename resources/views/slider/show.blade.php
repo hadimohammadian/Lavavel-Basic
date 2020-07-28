@@ -18,11 +18,14 @@ $aa = ['name'=>'hadi' , 'family'=>'mohammadian']
         <h4>  {{var_dump($b)}} </h4>
         <h4>  {{var_dump($aa)}}</h4>
     </h3>
+
+    @include('partials.slider')
+    @include('partials.products')
 @endsection
 @section('css')
     <style>
         h1 {
-            background-color: red;
+            text-align: center;
         }
 
         h2 {

@@ -7,6 +7,7 @@
     <p> this parameter send by compact() method</p>
     <h2>{{$r1}}</h2>
     <h2>{{$r2}}</h2>
+    @include('partials.slider')
 @endsection
 
 @section('css')
