@@ -1,34 +1,9 @@
 @extends('layouts.master')
-@php($a= 10)
-@php($t   = "this is php parameter")
 
-@php($flag  =true)
-<?php
-$a = 10;
-//$t  = "this is php parameter";
-$flag = true;
-?>
 
 @section('content')
 
-    <h1>For </h1>
-    @for ($i = 0; $i < count($data); $i++)
-        @if ($data )
-            <h3>{{$data[$i]}}</h3>
-        @endif
-    @endfor
-    <hr>
-    <h1>Foreach</h1>
-    @php($k=1)
-
-    @foreach($data as $key=>$item)
-        <h3>{{$k}} >>> {{$item}}</h3>
-        @php($k++)
-    @endforeach
-
-    @include('partials.slider',['par01'=>'TEXT' ,'email'=>'A@N.com','state'=>true ])
-    @include('partials.news',['nt001'=>"this is a new 01"])
-    @includeWhen(true ,'partials.products' ,["pname"=>'SAMSUNG'])
+     @include('partials.slider',['data'=>$data])
 
 @endsection
 
