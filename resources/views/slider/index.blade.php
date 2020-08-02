@@ -18,7 +18,7 @@
     @else
         <h2>name is not define</h2>
     @endif
-
+    <hr>
     @switch($x)
         @case(10)
         <h1>the number is : {{$x}}</h1>
@@ -30,10 +30,19 @@
         <h1>The number is Other band</h1>
         @break
     @endswitch
+    <hr>
     {{--    UNLESS is reverse IF Statement--}}
     @unless($x==5)
         <h1>Unless return value {{$x}} </h1>
     @endunless
+    <hr>
+    {{-- When user is not login to site--}}
+    @guest
+        <h1>You are not login and you must be registered in this site</h1>
+        <a href="#">Register</a>
+    @endguest
+
+    <hr>
 
     <h1>this is a index slider</h1>
     <h2> a is <u>{{$a}}</u></h2>
