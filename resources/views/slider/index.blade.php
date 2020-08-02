@@ -5,6 +5,7 @@
 
      @include('partials.slider',['data'=>$data])
 
+    @Bold("This text is Bold from my customs Blade statement")
 @endsection
 
 @section('title','صفحه اصلی')
