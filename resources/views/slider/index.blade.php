@@ -30,7 +30,10 @@
         <h1>The number is Other band</h1>
         @break
     @endswitch
-
+    {{--    UNLESS is reverse IF Statement--}}
+    @unless($x==5)
+        <h1>Unless return value {{$x}} </h1>
+    @endunless
 
     <h1>this is a index slider</h1>
     <h2> a is <u>{{$a}}</u></h2>
