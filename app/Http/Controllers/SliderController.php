@@ -10,9 +10,11 @@ class SliderController extends Controller
     public function index()
     {
         $x=10;
-        $t2 = "hadi";
+        $z2 = "hadi";
+        $data = ['hadi','moaham',37,'hadimohammadian83@gmail.com'];
        // return view('slider.index',['num'=>$x,'name'=>$t]);
-        return view('slider.index',compact("x","t2"));
+//        return view('slider.index',compact("x","t2"));
+        return view('slider.index', compact('data',"x","z2"));
     }
 
 
