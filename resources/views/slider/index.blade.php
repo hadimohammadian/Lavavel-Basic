@@ -46,18 +46,27 @@
     @component('components.alert',['class'=>'btn', 'value'=>'This is value from alert component']) @endcomponent
 
     @component('components.product',['classProduct'=>'cp','title'=>'title','value'=>'this is a LG Mobile'])@endcomponent
-
+{{--   @component by @slot()--}}
+    @component('components.product',['classProduct'=>'cp','title'=>'title'])
+        @slot('value' , "HTC Mobile is set to buy")
+    @endcomponent
+    @component('components.product',['classProduct'=>'cp','title'=>'title'])
+        @slot('value' )
+            {{ "Motorola Mobile is set to buy"}}
+            @endslot
+    @endcomponent
 
 @section('css')
     <style>
-      .btn{
-        display: block;
-        background-color: #fff936;
-        heigh:40px;
-        line-height:50px;
-        font-family:  "Times New Roman";
+        .btn {
+            display: block;
+            background-color: #fff936;
+            heigh: 40px;
+            line-height: 50px;
+            font-family: "Times New Roman";
         }
-        .cp{
+
+        .cp {
             display: block;
             height: 250px;
             width: 500px;
@@ -65,12 +74,13 @@
             background-color: #ff581f;
             margin: 20px auto;
         }
-        .title{
+
+        .title {
             background-color: #38ff15;
             height: 50px;
             width: 500px;
             text-align: center;
-            
+
         }
     </style>
 @endsection
