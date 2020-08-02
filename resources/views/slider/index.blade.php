@@ -4,9 +4,9 @@
 
 @php($flag  =true)
 <?php
-$a= 10;
+$a = 10;
 //$t  = "this is php parameter";
-$flag  =true;
+$flag = true;
 ?>
 
 @section('content')
@@ -18,12 +18,17 @@ $flag  =true;
         @endif
     @endfor
     <hr>
+    <h1>Foreach</h1>
+    @php($k=1)
 
+    @foreach($data as $key=>$item)
+        <h3>{{$k}} >>> {{$item}}</h3>
+        @php($k++)
+    @endforeach
 
-
-@include('partials.slider',['par01'=>'TEXT' ,'email'=>'A@N.com','state'=>true ])
-@include('partials.news',['nt001'=>"this is a new 01"])
-@includeWhen(true ,'partials.products' ,["pname"=>'SAMSUNG'])
+    @include('partials.slider',['par01'=>'TEXT' ,'email'=>'A@N.com','state'=>true ])
+    @include('partials.news',['nt001'=>"this is a new 01"])
+    @includeWhen(true ,'partials.products' ,["pname"=>'SAMSUNG'])
 
 @endsection
 
