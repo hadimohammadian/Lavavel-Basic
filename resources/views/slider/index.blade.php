@@ -19,6 +19,19 @@
         <h2>name is not define</h2>
     @endif
 
+    @switch($x)
+        @case(10)
+        <h1>the number is : {{$x}}</h1>
+        @break
+        @case(15)
+        <h1>the number is : {{$x}}</h1>
+        @break
+        @default
+        <h1>The number is Other band</h1>
+        @break
+    @endswitch
+
+
     <h1>this is a index slider</h1>
     <h2> a is <u>{{$a}}</u></h2>
     <h2>T is <u>{{$t}}</u></h2>
