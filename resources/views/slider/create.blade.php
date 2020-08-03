@@ -19,8 +19,8 @@
                     <input type="text" name="lastName" id="lastName" class="form-control">
                 </section>
                 <section class="form-group">
-                    <label for="fatherName">Father Name</label>
-                    <input type="text" name="fatherName" id="fatherName" class="form-control">
+                    <label for="image">Image</label>
+                    <input type="file" name="image" id="image" class="form-control">
                 </section>
                 <section class="form-group">
                     <label for="comment">Comment</label>
