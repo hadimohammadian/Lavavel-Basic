@@ -7,7 +7,9 @@
 @section('content')
     <section class="row mt-5">
         <section class="col-8 offset-2  ">
-            <form action="" method="" enctype="multipart/form-data">
+            <form action="{{route('slider.store')}}" method="post" enctype="multipart/form-data">
+                @csrf
+
                 <section class="form-group">
                     <label for="firstName">First Name</label>
                     <input type="text" name="firstName" id="firstName" class="form-control">

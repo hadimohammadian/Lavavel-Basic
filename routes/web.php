@@ -66,6 +66,8 @@ Route::get('/slider','sliderController@index')->name('slider.index');
 Route::get('/slider/create','sliderController@create')->name('slider.create');
 Route::get('/slider/{id?}','sliderController@show')->name('slider.show');
 Route::get('/slider/{id?}/edit','sliderController@edit')->name('slider.edit');
+Route::post('/slider/store','sliderController@store')->name('slider.store');
+
 
 
 //Route is so big
