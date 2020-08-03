@@ -16,9 +16,9 @@
 @yield('content')
 
 <!-- javascripts Codes -->
-<script !src="{{asset('dist/js/jquery-3.5.1.min.js')}}"></script>
-<script !src="{{asset('dist/js/popper.min.js')}}"></script>
-<script !src="{{asset('dist/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('dist/js/jquery-3.5.1.min.js')}}"></script>
+<script src="{{asset('dist/js/popper.min.js')}}"></script>
+<script src="{{asset('dist/js/bootstrap.min.js')}}"></script>
 @yield('js')
 </body>
 </html>
