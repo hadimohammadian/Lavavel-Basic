@@ -33,3 +33,17 @@
         </section>
     </section>
 @endsection
+
+@section('css')
+    <style>
+        input[type=text]{
+            border: 2px inset lightgray !important;
+        }
+        textarea{
+            border: 2px inset lightgray  !important;
+            height: 150px !important;
+            resize: none;
+
+        }
+    </style>
+    @endsection
