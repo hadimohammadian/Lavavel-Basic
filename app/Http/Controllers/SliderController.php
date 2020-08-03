@@ -25,9 +25,18 @@ class SliderController extends Controller
 
     public function store(Request $request)
     {
+        dd($request->route()->getController());
+        dd($request->route()->getAction());
+        dd($request->route()->getName());
+        dd($request->except(['firstName']));
+        dd($request->only(['firstName','lastName']));
+        dd($request->has('firstName')?"Yes it has":"No it hasn't");
         dd($request->all());
 //        or
         dd($request->get('firstName'));
+//        or
+        dd($request->firstName,$request->lastName);
+
     }
 
 
