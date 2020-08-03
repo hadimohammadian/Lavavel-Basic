@@ -9,12 +9,16 @@
 
     <title>my Site - @yield('title')</title>
 {{--    <title>my Site - @section('title') @show</title>--}}
+    <link rel="stylesheet" href="{{asset('dist/css/bootstrap.min.css')}}">
     @yield('css')
 </head>
 <body>
 @yield('content')
 
 <!-- javascripts Codes -->
+<script !src="{{asset('dist/js/jquery-3.5.1.min.js')}}"></script>
+<script !src="{{asset('dist/js/popper.min.js')}}"></script>
+<script !src="{{asset('dist/js/bootstrap.min.js')}}"></script>
 @yield('js')
 </body>
 </html>

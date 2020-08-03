@@ -24,8 +24,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Blade::directive('Bold',function ($txt){
-            return "<b>".$txt."</b>";
-        });
+
     }
 }
