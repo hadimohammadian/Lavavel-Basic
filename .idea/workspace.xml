@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8c72459-84db-4302-a735-71162085d575" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Course_laravel_01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Course_laravel_01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/slider/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slider/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,6 +152,7 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
       <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1f2G1TpGlXoxCcKA7jXmmKttyef" />
@@ -195,7 +199,8 @@
       <workItem from="1595834918644" duration="2429000" />
       <workItem from="1595911432489" duration="10975000" />
       <workItem from="1596346220794" duration="9477000" />
-      <workItem from="1596360260050" duration="13229000" />
+      <workItem from="1596360260050" duration="13555000" />
+      <workItem from="1596516456154" duration="1879000" />
     </task>
     <task id="LOCAL-00001" summary="Route from controller">
       <created>1595671233884</created>
@@ -274,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596439579498</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Upload image to local drive in controller">
+      <created>1596444345943</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1596444345943</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,17 +348,18 @@
     <MESSAGE value="add style to create form" />
     <MESSAGE value="Pass Data from create form to store page &#10;use @csrf for create _token" />
     <MESSAGE value="$request in Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="$request in Controller" />
+    <MESSAGE value="Upload image to local drive in controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload image to local drive in controller" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1160" y="387" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1595827189746">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
     <state x="-1160" y="387" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595827189746" />
-    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2" timestamp="1596439578778">
+    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2" timestamp="1596444345177">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
-    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1596439578778" />
+    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1596444345177" />
     <state x="-1508" y="282" width="1416" height="676" key="DiffContextDialog" timestamp="1595836530933">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
@@ -383,10 +396,10 @@
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
     <state x="-914" y="535" key="VCS.EditChangelistDialog/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595745144607" />
-    <state x="-1208" y="353" key="Vcs.Push.Dialog.v2" timestamp="1596439581697">
+    <state x="-1208" y="353" key="Vcs.Push.Dialog.v2" timestamp="1596444347788">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
-    <state x="-1208" y="353" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1596439581697" />
+    <state x="-1208" y="353" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1596444347788" />
     <state x="-1508" y="282" width="1416" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1595926381137">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
