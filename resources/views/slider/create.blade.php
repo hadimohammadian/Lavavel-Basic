@@ -51,6 +51,10 @@
             <div>
                 {!! Form::textarea('comment', 'This is a content Text inside textarea', ['class' => 'form-control']) !!}
             </div>
+
+            <div>
+                {!! Form::submit('Rgister', ['class' => 'btn btn-success']) !!}
+            </div>
             {!! Form::close() !!}
 
         </section>
