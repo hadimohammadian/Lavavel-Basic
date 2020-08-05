@@ -38,7 +38,11 @@
 
             </div>
             <section class="form-group">
-                   {!! Form::select('country', [1=>'IRAN',2=>'USA',3=>'Japan'] , null , ['class' => 'form-control','multiple'=>'multiple']) !!}
+                {!! Form::select('country', [1=>'IRAN',2=>'USA',3=>'Japan'] , null , ['class' => 'form-control','multiple'=>'multiple']) !!}
+            </section>
+            
+            <section>
+                {!! Form::selectRange('Days', 1, 31 , null , ['class' => 'form-control']) !!}
             </section>
 
             {!! Form::close() !!}
