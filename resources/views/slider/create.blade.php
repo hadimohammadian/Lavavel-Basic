@@ -37,6 +37,9 @@
                 </label>
 
             </div>
+            <section class="form-group">
+                   {!! Form::select('country', [1=>'IRAN',2=>'USA',3=>'Japan'] , null , ['class' => 'form-control','multiple'=>'multiple']) !!}
+            </section>
 
             {!! Form::close() !!}
 
