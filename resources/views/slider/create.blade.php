@@ -22,10 +22,21 @@
             {!! Form::label('image', 'عکس', ['class' => 'control-label']) !!}
             {!! Form::file('image',  ['class' => 'form-control']) !!}
             <label>
-            	{!! Form::checkbox('tv', '005', null,  ['id' => 'tv']) !!}
-            	Philips
+                {!! Form::checkbox('tv', '005', null,  ['id' => 'tv']) !!}
+                Philips
             </label>
+            <div>
+                <label>
+                    {!! Form::radio('cars', '1', true,  ['id' => 'cars']) !!}
 
+                    peykan
+                </label>
+                <label>
+                    {!! Form::radio('cars', '2', null,  ['id' => 'cars']) !!}
+                    pride
+                </label>
+
+            </div>
 
             {!! Form::close() !!}
 
