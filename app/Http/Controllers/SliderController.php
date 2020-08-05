@@ -18,19 +18,20 @@ class SliderController extends Controller
     {
         $r1 = "R text";
         $r2 = "R2 Text";
-        return view('slider.create',compact('r1','r2'));
+        return view('slider.create', compact('r1', 'r2'));
 
     }
 
 
     public function store(Request $request)
     {
-$this->validate($request,[
-    'firstName'=>'required',
-    'password'=>'required',
-    'email'=>'required',
-    'image'=>'required'
-]);
+        $this->validate($request, [
+            'firstName' => 'required|min:5',
+            'password' => 'required|min:8',
+            'email' => 'required|max:200',
+            'image' => 'required'
+        ]);
+        dd('passed');
     }
 
 
@@ -39,7 +40,7 @@ $this->validate($request,[
         $it = $id;
         $t = "parameter 01 ";
         $y = "Parameter 02";
-        return view('slider.show',compact('it'))->with(['P_one'=>$t,'P_two'=>$y]);
+        return view('slider.show', compact('it'))->with(['P_one' => $t, 'P_two' => $y]);
 
     }
 
