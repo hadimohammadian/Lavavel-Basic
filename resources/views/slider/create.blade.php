@@ -45,6 +45,9 @@
                 {!! Form::selectRange('Days', 1, 31 , null , ['class' => 'form-control']) !!}
             </section>
 
+            <section>
+              {!! Form::selectMonth('Month' , null , ['class' => 'form-control']) !!}
+            </section>
             {!! Form::close() !!}
 
         </section>
