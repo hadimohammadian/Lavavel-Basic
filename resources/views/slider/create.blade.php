@@ -21,39 +21,39 @@
             {!! Form::email('email', null, ['class' => 'form-control']) !!}
             {!! Form::label('image', 'عکس', ['class' => 'control-label']) !!}
             {!! Form::file('image',  ['class' => 'form-control']) !!}
-            <label>
-                {!! Form::checkbox('tv', '005', null,  ['id' => 'tv']) !!}
-                Philips
-            </label>
+{{--            <label>--}}
+{{--                {!! Form::checkbox('tv', '005', null,  ['id' => 'tv']) !!}--}}
+{{--                Philips--}}
+{{--            </label>--}}
+{{--            <div>--}}
+{{--                <label>--}}
+{{--                    {!! Form::radio('cars', '1', true,  ['id' => 'cars']) !!}--}}
+
+{{--                    peykan--}}
+{{--                </label>--}}
+{{--                <label>--}}
+{{--                    {!! Form::radio('cars', '2', null,  ['id' => 'cars']) !!}--}}
+{{--                    pride--}}
+{{--                </label>--}}
+
+{{--            </div>--}}
+{{--            <section class="form-group">--}}
+{{--                {!! Form::select('country', [1=>'IRAN',2=>'USA',3=>'Japan'] , null , ['class' => 'form-control','multiple'=>'multiple']) !!}--}}
+{{--            </section>--}}
+
+{{--            <section>--}}
+{{--                {!! Form::selectRange('Days', 1, 31 , null , ['class' => 'form-control']) !!}--}}
+{{--            </section>--}}
+
+{{--            <section>--}}
+{{--              {!! Form::selectMonth('Month' , null , ['class' => 'form-control']) !!}--}}
+{{--            </section>--}}
+{{--            <div>--}}
+{{--                {!! Form::textarea('comment', 'This is a content Text inside textarea', ['class' => 'form-control']) !!}--}}
+{{--            </div>--}}
+            <br>
             <div>
-                <label>
-                    {!! Form::radio('cars', '1', true,  ['id' => 'cars']) !!}
-
-                    peykan
-                </label>
-                <label>
-                    {!! Form::radio('cars', '2', null,  ['id' => 'cars']) !!}
-                    pride
-                </label>
-
-            </div>
-            <section class="form-group">
-                {!! Form::select('country', [1=>'IRAN',2=>'USA',3=>'Japan'] , null , ['class' => 'form-control','multiple'=>'multiple']) !!}
-            </section>
-
-            <section>
-                {!! Form::selectRange('Days', 1, 31 , null , ['class' => 'form-control']) !!}
-            </section>
-
-            <section>
-              {!! Form::selectMonth('Month' , null , ['class' => 'form-control']) !!}
-            </section>
-            <div>
-                {!! Form::textarea('comment', 'This is a content Text inside textarea', ['class' => 'form-control']) !!}
-            </div>
-
-            <div>
-                {!! Form::submit('Rgister', ['class' => 'btn btn-success']) !!}
+                {!! Form::submit('Rgister', ['class' => 'btn btn-success btn-block']) !!}
             </div>
             {!! Form::close() !!}
 

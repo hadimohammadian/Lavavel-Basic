@@ -25,15 +25,12 @@ class SliderController extends Controller
 
     public function store(Request $request)
     {
-        $file = $request->file('image');
-
-        if (!empty($file)){
-            $image = $file->getClientOriginalName();
-            $file->move('images/slider',$image);
-            var_dump('image is uploaded');
-        }
-      dd($file->getClientOriginalName(),$file->getClientOriginalExtension(),$file->getExtension());
-        dd($file);
+$this->validate($request,[
+    'firstName'=>'required',
+    'password'=>'required',
+    'email'=>'required',
+    'image'=>'required'
+]);
     }
 
 
