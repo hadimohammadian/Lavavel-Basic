@@ -40,7 +40,7 @@
             <section class="form-group">
                 {!! Form::select('country', [1=>'IRAN',2=>'USA',3=>'Japan'] , null , ['class' => 'form-control','multiple'=>'multiple']) !!}
             </section>
-            
+
             <section>
                 {!! Form::selectRange('Days', 1, 31 , null , ['class' => 'form-control']) !!}
             </section>
@@ -48,6 +48,9 @@
             <section>
               {!! Form::selectMonth('Month' , null , ['class' => 'form-control']) !!}
             </section>
+            <div>
+                {!! Form::textarea('comment', 'This is a content Text inside textarea', ['class' => 'form-control']) !!}
+            </div>
             {!! Form::close() !!}
 
         </section>
