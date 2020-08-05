@@ -11,7 +11,7 @@
                 {!! ' this is a text from laravel collective '  !!}
 
             </div>
-            {!! Form::open(['route' => 'slider.store', 'method' => 'post']) !!}
+            {!! Form::open(['route' => 'slider.store', 'method' => 'post','files'=>true]) !!}
 
             {!! Form::label('firstName', 'نام', ['class' => 'control-label','style'=>'color:green;font-size:20px;font-weight:bold']) !!}
             {!! Form::text('firstName', null, ['class' => 'form-control','palceholder'=>'Please enter your name','style'=>'border:2px inset blue;']) !!}
@@ -19,6 +19,8 @@
             {!! Form::password('password', ['class' => 'form-control']) !!}
             {!! Form::label('email', 'ایمیل', ['class' => 'control-label']) !!}
             {!! Form::email('email', null, ['class' => 'form-control']) !!}
+            {!! Form::label('image', 'عکس', ['class' => 'control-label']) !!}
+            {!! Form::file('image',  ['class' => 'form-control']) !!}
 
             {!! Form::close() !!}
 
