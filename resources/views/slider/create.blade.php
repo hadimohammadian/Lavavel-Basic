@@ -21,6 +21,11 @@
             {!! Form::email('email', null, ['class' => 'form-control']) !!}
             {!! Form::label('image', 'عکس', ['class' => 'control-label']) !!}
             {!! Form::file('image',  ['class' => 'form-control']) !!}
+            <label>
+            	{!! Form::checkbox('tv', '005', null,  ['id' => 'tv']) !!}
+            	Philips
+            </label>
+
 
             {!! Form::close() !!}
 
