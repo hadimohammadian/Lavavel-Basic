@@ -20,7 +20,7 @@
             {!! Form::open(['route' => 'slider.store', 'method' => 'post','files'=>true]) !!}
 
             {!! Form::label('firstName', 'نام', ['class' => 'control-label','style'=>'color:green;font-size:20px;font-weight:bold']) !!}
-            {!! Form::text('firstName', null, ['class' => 'form-control','palceholder'=>'Please enter your name','style'=>'border:2px inset blue;']) !!}
+            {!! Form::text('firstName', old('firstName'), ['class' => 'form-control','palceholder'=>'Please enter your name','style'=>'border:2px inset blue;']) !!}
             @error('firstName')
             <h5 class="text-danger text-center">
                 {{$message}}
@@ -34,7 +34,7 @@
             </h5>
             @enderror
             {!! Form::label('email', 'ایمیل', ['class' => 'control-label']) !!}
-            {!! Form::email('email', null, ['class' => 'form-control']) !!}
+            {!! Form::email('email', old('email'), ['class' => 'form-control']) !!}
             @error('email')
             <h5 class="text-danger text-center">
                 {{$message}}
