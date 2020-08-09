@@ -21,12 +21,32 @@
 
             {!! Form::label('firstName', 'نام', ['class' => 'control-label','style'=>'color:green;font-size:20px;font-weight:bold']) !!}
             {!! Form::text('firstName', null, ['class' => 'form-control','palceholder'=>'Please enter your name','style'=>'border:2px inset blue;']) !!}
+            @error('firstName')
+            <h5 class="text-danger text-center">
+                {{$message}}
+            </h5>
+            @enderror
             {!! Form::label('password', 'کلمه عبور', ['class' => 'control-label']) !!}
             {!! Form::password('password', ['class' => 'form-control']) !!}
+            @error('password')
+            <h5 class="text-danger text-center">
+                {{$message}}
+            </h5>
+            @enderror
             {!! Form::label('email', 'ایمیل', ['class' => 'control-label']) !!}
             {!! Form::email('email', null, ['class' => 'form-control']) !!}
+            @error('email')
+            <h5 class="text-danger text-center">
+                {{$message}}
+            </h5>
+            @enderror
             {!! Form::label('image', 'عکس', ['class' => 'control-label']) !!}
             {!! Form::file('image',  ['class' => 'form-control']) !!}
+            @error('image')
+            <h5 class="text-danger text-center">
+                {{$message}}
+            </h5>
+            @enderror
             {{--            <label>--}}
             {{--                {!! Form::checkbox('tv', '005', null,  ['id' => 'tv']) !!}--}}
             {{--                Philips--}}
