@@ -29,13 +29,14 @@ class SliderController extends Controller
             'firstName' => 'required|min:5|string',
             'password' => 'required|min:8',
             'email' => 'required|max:200',
-            'image' => 'required',
+            'image' => 'mimes:jpeg,png,jpg|required',
             'age' => 'required|integer|between:1,120'
         ],[
             "firstName.required" => "نام الزامی است",
             "password.required" => "پسورد الزامی است",
             "email.required" => "ایمیل الزامی است",
             "image.required" => "تصویر الزامی است",
+            "image.mimes" => "تصویر حتما باید یکی از فرمت های 'jpg,jpeg,png,gif' باشد",
             "firstName.min" => "حداقل طول نام 5 کاراکتر می باشد",
             "password.min" => "حداقل طول پسورد 8 کاراکتر می باشد",
             "age.required" => "سن الزامی است",
