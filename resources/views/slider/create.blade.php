@@ -26,6 +26,15 @@
                 {{$message}}
             </h5>
             @enderror
+
+            {!! Form::label('age', 'سن', ['class' => 'control-label','style'=>'color:green;font-size:20px;font-weight:bold']) !!}
+
+            {!! Form::number('age', old('age'), ['class' => 'form-control','palceholder'=>'سن خود را وارد نمایید','style'=>'border:2px inset blue;']) !!}
+            @error('age')
+            <h5 class="text-danger text-center">
+                {{$message}}
+            </h5>
+            @enderror
             {!! Form::label('password', 'کلمه عبور', ['class' => 'control-label']) !!}
             {!! Form::password('password', ['class' => 'form-control']) !!}
             @error('password')
