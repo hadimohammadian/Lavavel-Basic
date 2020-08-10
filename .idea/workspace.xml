@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d8c72459-84db-4302-a735-71162085d575" name="Default Changelist" comment="Use laravel collective for add Form Email item">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/createSliderRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/createSliderRequest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +199,7 @@
       <workItem from="1596360260050" duration="13555000" />
       <workItem from="1596516456154" duration="6233000" />
       <workItem from="1596605111770" duration="5828000" />
-      <workItem from="1596964270255" duration="5155000" />
+      <workItem from="1596964270255" duration="5670000" />
     </task>
     <task id="LOCAL-00001" summary="Route from controller">
       <created>1595671233884</created>
