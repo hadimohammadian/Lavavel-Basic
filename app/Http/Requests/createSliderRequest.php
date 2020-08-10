@@ -34,7 +34,7 @@ class createSliderRequest extends FormRequest
 
     public function messages()
     {
-        return[
+        return [
             "firstName.required" => "نام الزامی است",
             "password.required" => "پسورد الزامی است",
             "email.required" => "ایمیل الزامی است",

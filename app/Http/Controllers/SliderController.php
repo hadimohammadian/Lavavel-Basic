@@ -26,7 +26,7 @@ class SliderController extends Controller
 
     public function store(createSliderRequest $request)
     {
-    dd($request->all());
+        dd($request->all());
     }
 
 
@@ -41,7 +41,7 @@ class SliderController extends Controller
 
     public function edit($id)
     {
-        return view('slider.edit');
+        return view('slider.edit')->with(["id"=>$id]);
 
     }
 
