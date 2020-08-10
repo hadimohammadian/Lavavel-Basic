@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\createSliderRequest;
+use App\Http\Requests\updateSliderRequest;
 use Illuminate\Http\Request;
 
 class SliderController extends Controller
@@ -39,9 +40,10 @@ class SliderController extends Controller
 
     }
 
-    public function edit($id)
+    public function edit(updateSliderRequest $request,$id)
     {
-        return view('slider.edit')->with(["id"=>$id]);
+        //dd($request->all());
+      return view('slider.edit')->with(["id"=>$id,$request->all()]);
 
     }
 
