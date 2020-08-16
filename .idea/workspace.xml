@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8c72459-84db-4302-a735-71162085d575" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +203,7 @@
       <workItem from="1596605111770" duration="5828000" />
       <workItem from="1596964270255" duration="11044000" />
       <workItem from="1597568397778" duration="3637000" />
+      <workItem from="1597572050556" duration="490000" />
     </task>
     <task id="LOCAL-00001" summary="Route from controller">
       <created>1595671233884</created>
@@ -385,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597571551686</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="use daily log in .env file and all logs save daily in projects">
+      <created>1597572181486</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1597572181486</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +446,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="create controller with &quot;php artisan make:controller FirstController&quot;" />
     <MESSAGE value="Use dd() for killing all statement after that" />
     <MESSAGE value="get username and password in controller" />
     <MESSAGE value="get username and password in controller with different name and Nullable" />
@@ -462,17 +470,18 @@
     <MESSAGE value="use Log for save logs occurred on project" />
     <MESSAGE value="use MultiLog for save logs occurred on project" />
     <MESSAGE value="use Log for save logs occurred on project and send other parameters to log" />
-    <option name="LAST_COMMIT_MESSAGE" value="use Log for save logs occurred on project and send other parameters to log" />
+    <MESSAGE value="use daily log in .env file and all logs save daily in projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="use daily log in .env file and all logs save daily in projects" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1160" y="387" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1595827189746">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
     <state x="-1160" y="387" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595827189746" />
-    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2" timestamp="1597571550835">
-      <screen x="-1600" y="190" width="1600" height="860" />
+    <state x="276" y="100" width="1023" height="818" key="CommitChangelistDialog2" timestamp="1597572180619">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1597571550835" />
+    <state x="276" y="100" width="1023" height="818" key="CommitChangelistDialog2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1597572180619" />
     <state x="-1508" y="282" width="1416" height="676" key="DiffContextDialog" timestamp="1597569032631">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>

@@ -13,11 +13,9 @@ class SliderController extends Controller
     public function index()
     {
 
-        Log::info('من در این زمان وارد متد ایندکس شدم',["id"=>12 , "link" => "www.mysite.ir", "proccessName"=> "laravelProject"]);
-
-
-
-
+        Log::stack(["daily","stack"])->info("من وارد اسلایدر شدم ");
+        Log::stack(["daily"])->warning("نمایش هشدار روزانه");
+        Log::stack(["stack"])->error("نمایش خطا در هر لحظه");
     }
 
 
