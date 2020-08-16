@@ -12,7 +12,8 @@ class SliderController extends Controller
     public function index()
     {
 
-        return response("This is a content" , 200 )->header("Pdata" , "this is a value of header data");
+        return response("This is a content" , 200 )->cookie("userName" , "Hadi_cookie");
+
 
     }
 
