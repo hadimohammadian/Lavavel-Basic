@@ -12,7 +12,8 @@ class SliderController extends Controller
     public function index()
     {
 
-        return response("This is a content" , 200 )->cookie("userName" , "Hadi_cookie");
+        $data = ["firstname"=>"hadi","lastname"=> "mohammadian","age"=> 37 ];
+        return response()->json($data);
 
 
     }
