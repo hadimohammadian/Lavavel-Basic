@@ -12,10 +12,8 @@ class SliderController extends Controller
     public function index()
     {
 
-        return response(view('slider.create'),200,
-            ["Header_Info" => "This is data for header info"
-        , "data" => "pick up data by f12 command"
-            ]);
+        return response("This is a content" , 200 )->header("Pdata" , "this is a value of header data");
+
     }
 
 
