@@ -4,8 +4,6 @@
     <list default="true" id="d8c72459-84db-4302-a735-71162085d575" name="Default Changelist" comment="Use laravel collective for add Form Email item">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/slider/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/slider/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +152,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1f2G1TpGlXoxCcKA7jXmmKttyef" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -201,7 +201,8 @@
       <workItem from="1596360260050" duration="13555000" />
       <workItem from="1596516456154" duration="6233000" />
       <workItem from="1596605111770" duration="5828000" />
-      <workItem from="1596964270255" duration="9919000" />
+      <workItem from="1596964270255" duration="11044000" />
+      <workItem from="1597568397778" duration="433000" />
     </task>
     <task id="LOCAL-00001" summary="Route from controller">
       <created>1595671233884</created>
@@ -366,6 +367,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Route from controller" />
     <MESSAGE value="create controller with &quot;php artisan make:controller FirstController&quot;" />
     <MESSAGE value="Use dd() for killing all statement after that" />
