@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\createSliderRequest;
 use App\Http\Requests\updateSliderRequest;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class SliderController extends Controller
 {
@@ -12,8 +13,7 @@ class SliderController extends Controller
     public function index()
     {
 
-        $data = ["firstname"=>"hadi","lastname"=> "mohammadian","age"=> 37 ;
-        return response()->json($data);
+        Log::info('من در این زمان وارد متد ایندکس شدم');
 
 
     }

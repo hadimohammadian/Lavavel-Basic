@@ -202,7 +202,7 @@
       <workItem from="1596516456154" duration="6233000" />
       <workItem from="1596605111770" duration="5828000" />
       <workItem from="1596964270255" duration="11044000" />
-      <workItem from="1597568397778" duration="2273000" />
+      <workItem from="1597568397778" duration="2537000" />
     </task>
     <task id="LOCAL-00001" summary="Route from controller">
       <created>1595671233884</created>
@@ -358,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597570136381</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="catch all error log on project">
+      <created>1597570780698</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1597570780698</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,17 +439,18 @@
     <MESSAGE value="return content with response() and use cookie()" />
     <MESSAGE value="return content with response() and use cookie() and EncryptCookies in except()" />
     <MESSAGE value="return JSON with response()" />
-    <option name="LAST_COMMIT_MESSAGE" value="return JSON with response()" />
+    <MESSAGE value="catch all error log on project" />
+    <option name="LAST_COMMIT_MESSAGE" value="catch all error log on project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1160" y="387" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1595827189746">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
     <state x="-1160" y="387" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595827189746" />
-    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2" timestamp="1597570135589">
+    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2" timestamp="1597570779877">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
-    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1597570135589" />
+    <state x="-1308" y="190" width="1023" height="818" key="CommitChangelistDialog2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1597570779877" />
     <state x="-1508" y="282" width="1416" height="676" key="DiffContextDialog" timestamp="1597569032631">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
