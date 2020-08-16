@@ -12,7 +12,7 @@ class SliderController extends Controller
     public function index()
     {
 
-        return response(["firstName" => "hadi" , "lastname" =>  "mohammadian", "age" => 37],200,
+        return response(view('slider.create'),200,
             ["Header_Info" => "This is data for header info"
         , "data" => "pick up data by f12 command"
             ]);
