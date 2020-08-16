@@ -12,7 +12,7 @@ class SliderController extends Controller
     public function index()
     {
 
-        $data = ["firstname"=>"hadi","lastname"=> "mohammadian","age"=> 37 ];
+        $data = ["firstname"=>"hadi","lastname"=> "mohammadian","age"=> 37 ;
         return response()->json($data);
 
 
