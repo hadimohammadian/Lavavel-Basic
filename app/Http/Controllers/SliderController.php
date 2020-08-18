@@ -12,10 +12,10 @@ class SliderController extends Controller
 
     public function index()
     {
+    session()->put(["firstname"=>"hadi","lastname"=>"mohammadian","age"=>37,"email"=>"a@f.ir"]);
 
-        Log::stack(["daily","stack"])->info("من وارد اسلایدر شدم ");
-        Log::stack(["daily"])->warning("نمایش هشدار روزانه");
-        Log::stack(["stack"])->error("نمایش خطا در هر لحظه");
+     return session()->all();
+
     }
 
 
