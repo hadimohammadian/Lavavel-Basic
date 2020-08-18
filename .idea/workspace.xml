@@ -4,6 +4,7 @@
     <list default="true" id="d8c72459-84db-4302-a735-71162085d575" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +205,7 @@
       <workItem from="1596964270255" duration="11044000" />
       <workItem from="1597568397778" duration="3637000" />
       <workItem from="1597572050556" duration="1320000" />
-      <workItem from="1597742692653" duration="391000" />
+      <workItem from="1597742692653" duration="959000" />
     </task>
     <task id="LOCAL-00001" summary="Route from controller">
       <created>1595671233884</created>
@@ -402,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597572622694</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Set session by put() and get all information by all()">
+      <created>1597743139135</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1597743139135</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +462,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="get username and password in controller" />
     <MESSAGE value="get username and password in controller with different name and Nullable" />
     <MESSAGE value="Create Full method for SliderController with &#10;&quot;php artisan make:controller SliderController -r&quot;" />
     <MESSAGE value="use layouts in all views and use `yield` , `section`" />
@@ -479,17 +486,18 @@
     <MESSAGE value="use Log for save logs occurred on project and send other parameters to log" />
     <MESSAGE value="use daily log in .env file and all logs save daily in projects" />
     <MESSAGE value="filter all Logs with separated log files" />
-    <option name="LAST_COMMIT_MESSAGE" value="filter all Logs with separated log files" />
+    <MESSAGE value="Set session by put() and get all information by all()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set session by put() and get all information by all()" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1160" y="387" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1595827189746">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
     <state x="-1160" y="387" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595827189746" />
-    <state x="-1220" y="200" width="1023" height="818" key="CommitChangelistDialog2" timestamp="1597572621887">
+    <state x="-1220" y="200" width="1023" height="818" key="CommitChangelistDialog2" timestamp="1597743138287">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
-    <state x="-1220" y="200" width="1023" height="818" key="CommitChangelistDialog2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1597572621887" />
+    <state x="-1220" y="200" width="1023" height="818" key="CommitChangelistDialog2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1597743138287" />
     <state x="-1508" y="282" width="1416" height="676" key="DiffContextDialog" timestamp="1597569032631">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>

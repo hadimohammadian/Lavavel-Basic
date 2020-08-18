@@ -6,15 +6,22 @@ use App\Http\Requests\createSliderRequest;
 use App\Http\Requests\updateSliderRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Session;
 
 class SliderController extends Controller
 {
 
     public function index()
     {
-    session()->put(["firstname"=>"hadi","lastname"=>"mohammadian","age"=>37,"email"=>"a@f.ir"]);
+        session()->put(["firstname" => "hadi", "lastname" => "mohammadian", "age" => 37, "email" => "a@f.ir"]);
 
-     return session()->all();
+        $fn = session()->get("firstname");
+        $ln = session()->get("lastname");
+        $age = Session::get('age');
+        $email = Session::get('email');
+        $data = [$fn, $ln, $age, $email];
+
+        return $data;
 
     }
 
@@ -43,10 +50,10 @@ class SliderController extends Controller
 
     }
 
-    public function edit(updateSliderRequest $request,$id)
+    public function edit(updateSliderRequest $request, $id)
     {
         //dd($request->all());
-      return view('slider.edit')->with(["id"=>$id,$request->all()]);
+        return view('slider.edit')->with(["id" => $id, $request->all()]);
 
     }
 
