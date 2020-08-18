@@ -28,14 +28,19 @@ class SliderController extends Controller
 
     public function create()
     {
-         return \session()->exists("age2")?\session()->get('age'):"Not Exists";
+        $all = \session()->all();
+        \session()->pull('age');
+        $af = \session()->all();
+        return [$all,$af];
+
 
     }
 
 
     public function store(createSliderRequest $request)
     {
-        dd($request->all());
+
+
     }
 
 
