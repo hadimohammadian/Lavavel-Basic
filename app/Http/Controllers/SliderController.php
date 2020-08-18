@@ -28,9 +28,7 @@ class SliderController extends Controller
 
     public function create()
     {
-        $r1 = "R text";
-        $r2 = "R2 Text";
-        return view('slider.create', compact('r1', 'r2'));
+         return \session()->has("age")?\session()->get('age'):"0";
 
     }
 
