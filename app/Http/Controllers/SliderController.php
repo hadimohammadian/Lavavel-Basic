@@ -28,7 +28,7 @@ class SliderController extends Controller
 
     public function create()
     {
-         return \session()->has("age")?\session()->get('age'):"0";
+         return \session()->exists("age2")?\session()->get('age'):"Not Exists";
 
     }
 
