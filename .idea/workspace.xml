@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8c72459-84db-4302-a735-71162085d575" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SliderController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -204,7 +203,7 @@
       <workItem from="1596964270255" duration="11044000" />
       <workItem from="1597568397778" duration="3637000" />
       <workItem from="1597572050556" duration="1320000" />
-      <workItem from="1597742692653" duration="1675000" />
+      <workItem from="1597742692653" duration="1994000" />
     </task>
     <task id="LOCAL-00001" summary="Route from controller">
       <created>1595671233884</created>
@@ -430,7 +429,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597743981611</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="remove session elements with pull()">
+      <created>1597744480352</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1597744480352</updated>
+    </task>
+    <task id="LOCAL-00034" summary="remove session elements with forget()">
+      <created>1597744601586</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1597744601586</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,8 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Create bootstrap form" />
-    <MESSAGE value="add style to create form" />
     <MESSAGE value="Pass Data from create form to store page &#10;use @csrf for create _token" />
     <MESSAGE value="$request in Controller" />
     <MESSAGE value="Upload image to local drive in controller" />
@@ -507,17 +518,19 @@
     <MESSAGE value="Get data from session" />
     <MESSAGE value="Get data from session with has()" />
     <MESSAGE value="Get data from session with Exists()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get data from session with Exists()" />
+    <MESSAGE value="remove session elements with pull()" />
+    <MESSAGE value="remove session elements with forget()" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove session elements with forget()" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1160" y="387" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1595827189746">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
     <state x="-1160" y="387" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1595827189746" />
-    <state x="-1220" y="200" width="1023" height="818" key="CommitChangelistDialog2" timestamp="1597744479635">
+    <state x="-1220" y="200" width="1023" height="818" key="CommitChangelistDialog2" timestamp="1597744600599">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>
-    <state x="-1220" y="200" width="1023" height="818" key="CommitChangelistDialog2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1597744479635" />
+    <state x="-1220" y="200" width="1023" height="818" key="CommitChangelistDialog2/0.0.1920.1040/-1600.190.1600.860@-1600.190.1600.860" timestamp="1597744600599" />
     <state x="-1508" y="282" width="1416" height="676" key="DiffContextDialog" timestamp="1597569032631">
       <screen x="-1600" y="190" width="1600" height="860" />
     </state>

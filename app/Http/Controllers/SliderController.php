@@ -29,7 +29,7 @@ class SliderController extends Controller
     public function create()
     {
         $all = \session()->all();
-        \session()->forget('age');
+        \session()->flush();
         $af = \session()->all();
         return [$all,$af];
 
